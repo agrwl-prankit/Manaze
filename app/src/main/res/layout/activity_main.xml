@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity"
     android:id="@+id/drawer"
-    tools:openDrawer="start">
+    tools:openDrawer="start"
+    android:background="@color/background">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -17,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/toolBar"
-            app:title="Manaza -> My Task"
+            app:title="Manaze -> My Task"
             android:background="@color/colorPrimary"
             app:titleTextColor="@color/white"/>
 
