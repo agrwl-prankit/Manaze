@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 
 import com.prankit.manaze.R;
 
-public class CompletedTaskFragment extends Fragment {
+public class PManagementAccTabFragment extends Fragment {
 
-    public CompletedTaskFragment() {
+    public PManagementAccTabFragment() {
         // Required empty public constructor
     }
 
@@ -20,6 +20,6 @@ public class CompletedTaskFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_completed_task, container, false);
+        return inflater.inflate(R.layout.fragment_tab_p_management_acc, container, false);
     }
 }

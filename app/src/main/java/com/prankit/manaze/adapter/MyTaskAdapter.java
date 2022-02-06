@@ -7,11 +7,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.prankit.manaze.tabFragment.ActiveTaskFragment;
-import com.prankit.manaze.tabFragment.CompletedTaskFragment;
-import com.prankit.manaze.tabFragment.DroppedTaskFragment;
-import com.prankit.manaze.tabFragment.HierarchyTaskFragment;
-import com.prankit.manaze.tabFragment.NewTaskFragment;
+import com.prankit.manaze.tabFragment.ActiveTaskTabFragment;
+import com.prankit.manaze.tabFragment.CompletedTaskTabFragment;
+import com.prankit.manaze.tabFragment.DroppedTaskTabFragment;
+import com.prankit.manaze.tabFragment.HierarchyTaskTabFragment;
+import com.prankit.manaze.tabFragment.NewTaskTabFragment;
 
 public class MyTaskAdapter extends FragmentPagerAdapter {
 
@@ -29,15 +29,15 @@ public class MyTaskAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new NewTaskFragment();
+                return new NewTaskTabFragment();
             case 1:
-                return new ActiveTaskFragment();
+                return new ActiveTaskTabFragment();
             case 2:
-                return new CompletedTaskFragment();
+                return new CompletedTaskTabFragment();
             case 3:
-                return new DroppedTaskFragment();
+                return new DroppedTaskTabFragment();
             case 4:
-                return new HierarchyTaskFragment();
+                return new HierarchyTaskTabFragment();
             default:
                 return null;
         }

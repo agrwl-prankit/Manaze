@@ -13,14 +13,15 @@ import android.view.ViewGroup;
 
 import com.google.android.material.tabs.TabLayout;
 import com.prankit.manaze.R;
+import com.prankit.manaze.adapter.AccountAdapter;
 import com.prankit.manaze.adapter.MyTaskAdapter;
 
-public class MyTaskFragment extends Fragment {
+public class AccountFragment extends Fragment {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
-    public MyTaskFragment() {
+    public AccountFragment() {
         // Required empty public constructor
     }
 
@@ -28,23 +29,22 @@ public class MyTaskFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_my_task, container, false);
+        return inflater.inflate(R.layout.fragment_account, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        viewPager = view.findViewById(R.id.myTask_viewpager);
-        tabLayout = view.findViewById(R.id.myTask_tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("New"));
-        tabLayout.addTab(tabLayout.newTab().setText("Active"));
-        tabLayout.addTab(tabLayout.newTab().setText("Completed"));
-        tabLayout.addTab(tabLayout.newTab().setText("Dropped"));
-        tabLayout.addTab(tabLayout.newTab().setText("Hierarchy"));
+        viewPager = view.findViewById(R.id.account_viewpager);
+        tabLayout = view.findViewById(R.id.account_tab_layout);
+        tabLayout.addTab(tabLayout.newTab().setText("Self"));
+        tabLayout.addTab(tabLayout.newTab().setText("Confirmation"));
+        tabLayout.addTab(tabLayout.newTab().setText("Performance Management"));
+        tabLayout.addTab(tabLayout.newTab().setText("Exit Management "));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-        final MyTaskAdapter adapter = new MyTaskAdapter(getActivity(),getActivity().getSupportFragmentManager(), tabLayout.getTabCount());
+        final AccountAdapter adapter = new AccountAdapter(getActivity(),getActivity().getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 

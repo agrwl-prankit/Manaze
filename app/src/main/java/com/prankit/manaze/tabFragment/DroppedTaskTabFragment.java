@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 
 import com.prankit.manaze.R;
 
-public class ActiveTaskFragment extends Fragment {
+public class DroppedTaskTabFragment extends Fragment {
 
-    public ActiveTaskFragment() {
+    public DroppedTaskTabFragment() {
         // Required empty public constructor
     }
 
@@ -20,6 +20,6 @@ public class ActiveTaskFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_active_task, container, false);
+        return inflater.inflate(R.layout.fragment_tab_dropped_task, container, false);
     }
 }
