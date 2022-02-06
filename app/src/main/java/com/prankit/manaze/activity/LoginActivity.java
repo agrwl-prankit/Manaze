@@ -4,13 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.prankit.manaze.MainActivity;
 import com.prankit.manaze.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -21,6 +18,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        startActivity(new Intent(this, MainActivity.class));
+        finish();
 
         inputEmail = findViewById(R.id.inputLoginEmail);
         inputPassword = findViewById(R.id.inputLoginPassword);
