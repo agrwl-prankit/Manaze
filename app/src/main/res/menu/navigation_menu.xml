@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Modules">
+        <menu>
+            <item
+                android:id="@+id/nav_myTask"
+                android:icon="@drawable/icon_task"
+                android:title=" My Task" />
+
+            <item
+                android:id="@+id/nav_projects"
+                android:icon="@drawable/icon_project"
+                android:title=" Projects" />
+
+            <item
+                android:id="@+id/nav_progress"
+                android:icon="@drawable/icon_progress"
+                android:title=" Progress" />
+
+            <item
+                android:id="@+id/nav_salary"
+                android:icon="@drawable/icon_salary"
+                android:title=" Salary" />
+
+            <item
+                android:id="@+id/nav_attendance"
+                android:icon="@drawable/icon_attendance"
+                android:title=" Attendance" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/icon_feedback"
+                android:title=" Feedback" />
+
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/icon_account"
+                android:title=" Account" />
+        </menu>
+    </item>
+
+</menu>
