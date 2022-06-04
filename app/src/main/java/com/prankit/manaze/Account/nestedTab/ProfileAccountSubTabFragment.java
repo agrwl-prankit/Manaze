@@ -1,4 +1,4 @@
-package com.prankit.manaze.tabFragment;
+package com.prankit.manaze.Account.nestedTab;
 
 import android.os.Bundle;
 
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 
 import com.prankit.manaze.R;
 
-public class CompletedTaskTabFragment extends Fragment {
+public class ProfileAccountSubTabFragment extends Fragment {
 
-    public CompletedTaskTabFragment() {
+    public ProfileAccountSubTabFragment() {
         // Required empty public constructor
     }
 
@@ -20,6 +20,6 @@ public class CompletedTaskTabFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab_completed_task, container, false);
+        return inflater.inflate(R.layout.fragment_subtab_profile_account, container, false);
     }
 }

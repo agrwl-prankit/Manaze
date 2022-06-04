@@ -1,4 +1,4 @@
-package com.prankit.manaze.nestedTabFragment;
+package com.prankit.manaze.Account.tab;
 
 import android.os.Bundle;
 
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 
 import com.prankit.manaze.R;
 
-public class EmploymentAccSubTabFragment extends Fragment {
+public class EManagementAccTabFragment extends Fragment {
 
-    public EmploymentAccSubTabFragment() {
+    public EManagementAccTabFragment() {
         // Required empty public constructor
     }
 
@@ -20,6 +20,6 @@ public class EmploymentAccSubTabFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_subtab_employment_acc, container, false);
+        return inflater.inflate(R.layout.fragment_tab_e_management_acc, container, false);
     }
 }

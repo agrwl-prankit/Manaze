@@ -1,4 +1,4 @@
-package com.prankit.manaze.tabFragment;
+package com.prankit.manaze.Account.tab;
 
 import android.os.Bundle;
 

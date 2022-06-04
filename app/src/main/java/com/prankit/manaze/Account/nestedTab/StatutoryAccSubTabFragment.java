@@ -1,4 +1,4 @@
-package com.prankit.manaze.nestedTabFragment;
+package com.prankit.manaze.Account.nestedTab;
 
 import android.os.Bundle;
 

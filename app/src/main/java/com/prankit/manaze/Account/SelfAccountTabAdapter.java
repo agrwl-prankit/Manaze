@@ -1,4 +1,4 @@
-package com.prankit.manaze.adapter;
+package com.prankit.manaze.Account;
 
 import android.content.Context;
 
@@ -7,18 +7,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.prankit.manaze.nestedTabFragment.AccountAccSubTabFragment;
-import com.prankit.manaze.nestedTabFragment.EducationAccountSubTabFragment;
-import com.prankit.manaze.nestedTabFragment.EmploymentAccSubTabFragment;
-import com.prankit.manaze.nestedTabFragment.NomineeAccountSubTabFragment;
-import com.prankit.manaze.nestedTabFragment.PersonalAccountSubTabFragment;
-import com.prankit.manaze.nestedTabFragment.ProfileAccountSubTabFragment;
-import com.prankit.manaze.nestedTabFragment.StatutoryAccSubTabFragment;
-import com.prankit.manaze.tabFragment.ActiveTaskTabFragment;
-import com.prankit.manaze.tabFragment.CompletedTaskTabFragment;
-import com.prankit.manaze.tabFragment.DroppedTaskTabFragment;
-import com.prankit.manaze.tabFragment.HierarchyTaskTabFragment;
-import com.prankit.manaze.tabFragment.NewTaskTabFragment;
+import com.prankit.manaze.Account.nestedTab.AccountAccSubTabFragment;
+import com.prankit.manaze.Account.nestedTab.EducationAccountSubTabFragment;
+import com.prankit.manaze.Account.nestedTab.EmploymentAccSubTabFragment;
+import com.prankit.manaze.Account.nestedTab.NomineeAccountSubTabFragment;
+import com.prankit.manaze.Account.nestedTab.PersonalAccountSubTabFragment;
+import com.prankit.manaze.Account.nestedTab.ProfileAccountSubTabFragment;
+import com.prankit.manaze.Account.nestedTab.StatutoryAccSubTabFragment;
 
 public class SelfAccountTabAdapter extends FragmentPagerAdapter {
 

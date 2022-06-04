@@ -1,4 +1,4 @@
-package com.prankit.manaze.tabFragment;
+package com.prankit.manaze.Account.tab;
 
 import android.os.Bundle;
 
@@ -13,8 +13,7 @@ import android.view.ViewGroup;
 
 import com.google.android.material.tabs.TabLayout;
 import com.prankit.manaze.R;
-import com.prankit.manaze.adapter.MyTaskAdapter;
-import com.prankit.manaze.adapter.SelfAccountTabAdapter;
+import com.prankit.manaze.Account.SelfAccountTabAdapter;
 
 public class SelfAccountTabFragment extends Fragment {
 

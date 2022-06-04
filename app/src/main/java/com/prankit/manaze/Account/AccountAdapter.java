@@ -1,4 +1,4 @@
-package com.prankit.manaze.adapter;
+package com.prankit.manaze.Account;
 
 import android.content.Context;
 
@@ -7,10 +7,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.prankit.manaze.tabFragment.ConfirmationAccountTabFragment;
-import com.prankit.manaze.tabFragment.EManagementAccTabFragment;
-import com.prankit.manaze.tabFragment.PManagementAccTabFragment;
-import com.prankit.manaze.tabFragment.SelfAccountTabFragment;
+import com.prankit.manaze.Account.tab.ConfirmationAccountTabFragment;
+import com.prankit.manaze.Account.tab.EManagementAccTabFragment;
+import com.prankit.manaze.Account.tab.PManagementAccTabFragment;
+import com.prankit.manaze.Account.tab.SelfAccountTabFragment;
 
 public class AccountAdapter extends FragmentPagerAdapter {
 

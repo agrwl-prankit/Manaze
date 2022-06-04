@@ -1,4 +1,4 @@
-package com.prankit.manaze.adapter;
+package com.prankit.manaze.MyTask;
 
 import android.content.Context;
 
@@ -7,11 +7,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.prankit.manaze.tabFragment.ActiveTaskTabFragment;
-import com.prankit.manaze.tabFragment.CompletedTaskTabFragment;
-import com.prankit.manaze.tabFragment.DroppedTaskTabFragment;
-import com.prankit.manaze.tabFragment.HierarchyTaskTabFragment;
-import com.prankit.manaze.tabFragment.NewTaskTabFragment;
+import com.prankit.manaze.MyTask.tab.ActiveTaskTabFragment;
+import com.prankit.manaze.MyTask.tab.CompletedTaskTabFragment;
+import com.prankit.manaze.MyTask.tab.DroppedTaskTabFragment;
+import com.prankit.manaze.MyTask.tab.HierarchyTaskTabFragment;
+import com.prankit.manaze.MyTask.tab.NewTaskTabFragment;
 
 public class MyTaskAdapter extends FragmentPagerAdapter {
 

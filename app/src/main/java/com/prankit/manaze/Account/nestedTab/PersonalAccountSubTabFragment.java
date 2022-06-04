@@ -1,4 +1,4 @@
-package com.prankit.manaze.tabFragment;
+package com.prankit.manaze.Account.nestedTab;
 
 import android.os.Bundle;
 
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 
 import com.prankit.manaze.R;
 
-public class HierarchyTaskTabFragment extends Fragment {
+public class PersonalAccountSubTabFragment extends Fragment {
 
-    public HierarchyTaskTabFragment() {
+    public PersonalAccountSubTabFragment() {
         // Required empty public constructor
     }
 
@@ -20,6 +20,6 @@ public class HierarchyTaskTabFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab_hierarchy_task, container, false);
+        return inflater.inflate(R.layout.fragment_subtab_personal_account, container, false);
     }
 }

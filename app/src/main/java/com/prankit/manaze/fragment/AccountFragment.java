@@ -13,8 +13,7 @@ import android.view.ViewGroup;
 
 import com.google.android.material.tabs.TabLayout;
 import com.prankit.manaze.R;
-import com.prankit.manaze.adapter.AccountAdapter;
-import com.prankit.manaze.adapter.MyTaskAdapter;
+import com.prankit.manaze.Account.AccountAdapter;
 
 public class AccountFragment extends Fragment {
 
