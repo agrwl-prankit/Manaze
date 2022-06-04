@@ -3,11 +3,242 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_margin="5dp"
     tools:context=".Account.nestedTab.ProfileAccountSubTabFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Profile Sub Tab" />
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAFAFA"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userProfileImageView"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/icon_account"/>
+
+                <TextView
+                    android:id="@+id/changePhotoTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Change Photo"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4276ec"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FAFAFA"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EMPLOYEE CODE"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/employeeCodeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="APS-30968"
+                            android:textColor="#2C2C2C"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EMPLOYEE NAME"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/employeeNameTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prankit Agarwal"
+                            android:textColor="#2C2C2C"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EMAIL"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/emailTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="prankit.agarwal@unthinkable.co"
+                            android:textColor="#2C2C2C"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MOBILE NO"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/mobileNoTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7830997170"
+                            android:textColor="#2C2C2C"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="REPORTING TO"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/reportingToNameTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pradeep Gupta"
+                            android:textColor="#2C2C2C"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/reportingToEmailTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pradeep.gupta@daffodilsw.com"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PEOPLE MANAGER"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/peopleManagerNameTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Shayra"
+                            android:textColor="#2C2C2C"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/peopleManagerEmailTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="shayra.sharma@daffodilsw.com"
+                            android:textColor="#8E8E8E"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
 
 </FrameLayout>
