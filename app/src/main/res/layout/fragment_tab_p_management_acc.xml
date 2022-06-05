@@ -19,7 +19,12 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="70dp">
+                android:layout_height="wrap_content"
+                android:background="#FAFAFA"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -29,8 +34,7 @@
                     android:gravity="start"
                     android:text="Showing All Self Appraisal Requests"
                     android:textStyle="italic"
-                    android:textColor="#8E8E8E"
-                    android:textSize="20sp" />
+                    android:textColor="#8E8E8E"/>
 
             </androidx.cardview.widget.CardView>
 
