@@ -55,14 +55,13 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.Material3.TextInputEditText.OutlinedBox.Dense"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
             android:id="@+id/inputPasswordLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
-            app:endIconMode="password_toggle"
-            app:errorEnabled="true">
+            app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/inputLoginPassword"
