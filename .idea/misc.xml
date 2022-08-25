@@ -43,7 +43,10 @@
         <entry key="..\:/Android_projects/Manaze/app/src/main/res/layout/toolbar.xml" value="0.17552083333333332" />
         <entry key="..\:/Android_projects/Manaze/app/src/main/res/menu/navigation_menu.xml" value="0.16666666666666666" />
         <entry key="..\:/Android_projects/Manaze/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
-        <entry key="..\:/Users/Daffolap-745/StudioProjects/Manaze/app/src/main/res/layout/activity_login.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/Daffolap-745/StudioProjects/Manaze/app/src/main/res/drawable/error_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/Daffolap-745/StudioProjects/Manaze/app/src/main/res/drawable/login_button_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/Daffolap-745/StudioProjects/Manaze/app/src/main/res/drawable/rectangle_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/Daffolap-745/StudioProjects/Manaze/app/src/main/res/layout/activity_login.xml" value="0.33" />
       </map>
     </option>
   </component>
